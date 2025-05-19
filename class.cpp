@@ -11,13 +11,19 @@ public:
     void display()
     {
         cout << "Name:" << name << endl;
-        cout << "Roll:" << roll << endl;
+        cout << "Roll:" << roll << endl
+             << endl;
     }
 
     void entry(string a, int b)
     {
         name = a;
         roll = b;
+    }
+
+    void changeRoll(int num)
+    {
+        roll = num;
     }
 };
 
@@ -31,6 +37,10 @@ int main()
     cout << "Enter your roll:";
     cin >> b;
     s1.entry(a, b);
+    s1.changeRoll(105);
     s1.display();
+    s2.display();
+
+    s2.entry("Gaurav", 200);
     s2.display();
 }
