@@ -13,11 +13,11 @@ public:
         i = i_;
     }
 
-    Complex add(Complex c1, Complex c2)
+    Complex add(Complex c2)
     {
         Complex temp;
-        temp.r = c1.r + c2.r;
-        temp.i = c1.i + c2.i;
+        temp.r = this->r + c2.r;
+        temp.i = this->i + c2.i;
         return temp;
     }
 
@@ -30,6 +30,6 @@ public:
 int main()
 {
     Complex c1(2, 3), c2(4, 8), c3;
-    c3 = c3.add(c1, c2);
+    c3 = c1.add(c2); // c1 is implicitly passed and c2 is explicitly passed.
     c3.showData();
 }
