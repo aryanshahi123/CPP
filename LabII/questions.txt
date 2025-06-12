@@ -1,0 +1,21 @@
+1. Create a class Student with data members name, roll, and marks. Write member functions to input and display the data of a student.
+
+2. Create a class Employee with data members name, id, and salary. Write functions to input and display details for multiple employees using an array of objects.
+
+3. Create a class Time with data members hours and minutes. Write a function to add two Time objects.
+
+4. Create a class BankAccount with data members accountHolder, accountNumber, and balance. Include functions to deposit, withdraw, and display balance.
+
+5. Create a class Person with data members name and age. Write a function to input and display the details and check if the person is eligible to vote (age ≥ 18).
+
+6. Create a class Box with data members length, breadth, and height. Overload constructors to:
+
+	Accept no arguments (set default size),
+	One argument (cube),
+	Three arguments (cuboid).
+	Add a function to calculate the volume.
+
+7. Create a class Student with name and roll. Use a static data member to count the total number of students created. 
+Display the total number of students after creating multiple objects.
+
+8. Create a class Distance with feet and inches. Write a function to add two Distance objects and return the result as a new object. Use this function in main() to display the total distance.
