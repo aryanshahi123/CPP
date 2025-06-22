@@ -41,6 +41,7 @@ public:
 int main()
 {
     Bat b1;
+    // b1.sleep(); error because both parent classes have same functions.
     b1.WingedAnimal::sleep();
     static_cast<Mammal>(b1).sleep();
     return 0;

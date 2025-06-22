@@ -9,10 +9,6 @@ public:
     {
         cout << "I can give birth." << endl;
     }
-    void sleep()
-    {
-        cout << "I am mammal and sleep" << endl;
-    }
 };
 
 class WingedAnimal
@@ -21,11 +17,6 @@ public:
     WingedAnimal()
     {
         cout << "I can fly." << endl;
-    }
-
-    void sleep()
-    {
-        cout << "I fly and sleep" << endl;
     }
 };
 
@@ -41,7 +32,5 @@ public:
 int main()
 {
     Bat b1;
-    b1.WingedAnimal::sleep();
-    static_cast<Mammal>(b1).sleep();
     return 0;
 }

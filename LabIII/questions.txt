@@ -1,0 +1,20 @@
+1. Overload the + operator to add two Distance objects (with feet and inches).
+
+2. Overload the - operator to subtract two Time objects (with hours and minutes).
+
+3. Overload the == operator to compare two Point objects (with x and y coordinates).
+
+4. Overload the ++ operator (prefix only) for a Counter class that holds an integer count.
+
+5. Overload the << operator to print the contents of a Student class (name, roll number).
+
+6. Overload the >> operator to input data into a Rectangle class (length and breadth).
+
+7. Overload the * operator to multiply two Complex numbers.
+
+8. Overload the / operator to divide two Fraction objects (numerator and denominator).
+
+9. Overload the != operator to check if two Book objects (title and author) are different.
+
+10. Overload the += operator to add and assign a Money object (rupees and paise).
+

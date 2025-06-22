@@ -12,7 +12,7 @@
 
 	Accept no arguments (set default size),
 	One argument (cube),
-	Three arguments (cuboid).
+	Three a0.`rguments (cuboid).
 	Add a function to calculate the volume.
 
 7. Create a class Student with name and roll. Use a static data member to count the total number of students created. 

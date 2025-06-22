@@ -12,11 +12,14 @@ private:
     float salary;
 
 public:
-    void setData(string nm, int i, float sal)
+    void dataEntry()
     {
-        name = nm;
-        id = i;
-        salary = sal;
+        cout << "Enter Name:";
+        cin >> name;
+        cout << "Enter Id:";
+        cin >> id;
+        cout << "Enter Salary:";
+        cin >> salary;
     }
 
     void getData()
@@ -31,19 +34,11 @@ public:
 int main()
 {
     Employee e[3];
-    int i, id;
-    float sal;
-    string name;
+    int i;
     for (i = 0; i < 3; i++)
     {
         cout << "Enter details for Employee " << i + 1 << ":" << endl;
-        cout << "Enter Name:";
-        cin >> name;
-        cout << "Enter Id:";
-        cin >> id;
-        cout << "Enter Salary:";
-        cin >> sal;
-        e[i].setData(name, id, sal);
+        e[i].dataEntry();
         cout << "\n";
     }
     cout << "Employee data:\n";
