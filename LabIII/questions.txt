@@ -17,4 +17,3 @@
 9. Overload the != operator to check if two Book objects (title and author) are different.
 
 10. Overload the += operator to add and assign a Money object (rupees and paise).
-
