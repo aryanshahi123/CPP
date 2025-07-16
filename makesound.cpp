@@ -1,20 +1,25 @@
 #include <iostream>
 using namespace std;
-class Instrument{
-    public:
-    virtual void makeSound(){
-    cout<<"Instrument Playing";
+class Instrument
+{
+public:
+    virtual void makeSound()
+    {
+        cout << "Instrument Playing";
     }
 };
 
-class Piano: public Instrument{
-    public:
-    void makeSound(){
-        cout<<"Piano Playing";
+class Piano : public Instrument
+{
+public:
+    void makeSound()
+    {
+        cout << "Piano Playing";
     }
 };
 
-int main(){
+int main()
+{
     Instrument *ptr = new Piano;
     ptr->makeSound();
     return 0;
